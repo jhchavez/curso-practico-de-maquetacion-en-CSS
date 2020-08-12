@@ -72,21 +72,23 @@ nav .profile-link a {
     color: white;
     border-bottom: 1px solid white;
 }
-
+/* __________________ */
 .home{
     background-image: url("../Imágenes/Cover.png");
     padding: 15%;
     background-repeat: no-repeat;
-    height: 20%;
+    /* height: 30%; */
     background-size: cover;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    text-align: center;
+    justify-items: center;
 }
 
-.home-text h1 {
+.home-text p {
     color: white;
-    font-weight: 17px;
+    font-size: 30px;
+    font-weight: 700px;
+    letter-spacing: 10px;
     
 }
 
