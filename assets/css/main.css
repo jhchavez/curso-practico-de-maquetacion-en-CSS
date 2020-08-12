@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fuentes/Roboto');
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fuentes/Roboto_Mono');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fuentes/Roboto_Slab');
+    font-style: normal;
+    font-weight: 700;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -83,13 +102,14 @@ nav .profile-link a {
     background-size: cover;
     padding: 15%;
     justify-items: center;
+    font-family: 'Roboto mono', monospace;
 }
 
 .home-text p {
     color: white;
     font-size: 30px;
     font-weight: 700px;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     
 }
 
