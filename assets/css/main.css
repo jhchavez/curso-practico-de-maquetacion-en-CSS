@@ -74,13 +74,14 @@ nav .profile-link a {
 }
 /* __________________ */
 .home{
-    background-image: url("../Imágenes/Cover.png");
-    padding: 15%;
-    background-repeat: no-repeat;
-    /* height: 30%; */
-    background-size: cover;
     display: grid;
     grid-template-rows: 1fr 1fr;
+    height: 30%;
+    background-image: url("../Imágenes/Cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
     justify-items: center;
 }
 
