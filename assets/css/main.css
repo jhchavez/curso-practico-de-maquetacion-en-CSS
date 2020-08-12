@@ -37,8 +37,61 @@ header .header-icons-container .icons {
     justify-self: end;
     margin-right: 50px;
 }
-/* ______________________________ */
 
 header .icons span {
     color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+    background-color: black;
+}
+
+nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+    background-color: #47cfac;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #362175;;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.home{
+    background-image: url("../Imágenes/Cover.png");
+    padding: 15%;
+    background-repeat: no-repeat;
+    height: 20%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.home-text h1 {
+    color: white;
+    font-weight: 17px;
+    
+}
+
+.home-button button {
+    background-color: #47cfac;
+    border-radius: 4px;
+    cursor: pointer;
 }
