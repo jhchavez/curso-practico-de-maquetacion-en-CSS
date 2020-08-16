@@ -53,6 +53,7 @@ nav  {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
+    background-color: #22272d;
 }
 nav .nav-logo-container {
     margin-left: 50px;
@@ -68,8 +69,8 @@ nav .profile-link {
     margin-right: 50px;
 }
 nav .profile-link a {
-    color: black;
-    border-bottom: 1px solid black;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .home-main {
